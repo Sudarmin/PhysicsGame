@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="10" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Afrika" tilewidth="32" tileheight="32">
+  <image source="Afrika.png" width="576" height="576"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="10" height="15">
+  <data encoding="base64" compression="zlib">
+   eJyzZWBgsB3Fo5jKGAAu8iO/
+  </data>
+ </layer>
+ <layer name="Tile Layer 2" width="10" height="15">
+  <data encoding="base64" compression="zlib">
+   eJwTZ2BgECcSEwL41FHLPGz6RtXRVx0xGABCogVO
+  </data>
+ </layer>
+ <objectgroup name="Walls" width="10" height="15">
+  <object type="wall" x="4" y="5" width="304" height="15"/>
+  <object type="wall" x="12" y="49" width="11" height="423"/>
+  <object type="wall" x="207" y="75" width="69" height="13"/>
+  <object type="wall" x="299" y="49" width="11" height="422"/>
+  <object type="wall" x="145" y="151" width="11" height="315"/>
+  <object type="wall" x="177" y="461" width="104" height="9"/>
+  <object type="wall" x="48" y="458" width="70" height="7"/>
+ </objectgroup>
+ <objectgroup name="Objects" width="10" height="15">
+  <object name="char3" type="player" x="168" y="42" width="17" height="17">
+   <ellipse/>
+  </object>
+  <object name="hole" type="hole" x="209" y="298">
+   <polygon points="0,0 -11,13 8,13"/>
+  </object>
+  <object name="char3" type="player" x="39" y="41" width="19" height="19">
+   <ellipse/>
+  </object>
+  <object name="char1" type="enemy" x="41" y="265" width="16" height="16">
+   <ellipse/>
+  </object>
+  <object name="char1" type="enemy" x="72" y="325" width="19" height="19">
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>

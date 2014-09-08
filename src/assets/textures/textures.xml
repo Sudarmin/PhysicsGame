@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:ec028f58ae9f50e415829d340cd217e3:be52aa1829dfcbeed0862138d4a9edea:2a288f7160b778d75d6fb3a0e2108afb$ -->
+<TextureAtlas imagePath="textures.png">
+    <SubTexture name="drink" x="2" y="2" width="71" height="168" frameX="-7" frameY="-4" frameWidth="79" frameHeight="188"/>
+    <SubTexture name="fist" x="222" y="2" width="30" height="40"/>
+    <SubTexture name="hamburger" x="124" y="2" width="96" height="67" frameX="-4" frameY="-4" frameWidth="102" frameHeight="73"/>
+    <SubTexture name="holeCircle" x="133" y="71" width="49" height="49"/>
+    <SubTexture name="icecream" x="2" y="172" width="120" height="80" frameX="-4" frameY="-4" frameWidth="126" frameHeight="88"/>
+    <SubTexture name="movingWall" x="75" y="128" width="64" height="32"/>
+    <SubTexture name="orange" x="75" y="71" width="56" height="55" frameX="-1" frameY="-2" frameWidth="58" frameHeight="59"/>
+</TextureAtlas>

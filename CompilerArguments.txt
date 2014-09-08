@@ -1,0 +1,6 @@
+-locale en_US
+-swf-version=25
+-define+=CONFIG::WEB,false
+-define+=CONFIG::MOBILE,true
+-define+=CONFIG::NATIVEEXT,false
+-define+=CONFIG::NATIVEAPP,false

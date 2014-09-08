@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+
+CollisionGroup must be 0 or 1 or multiplier of 2
+
+ -->
+<objects>
+	<object>
+		<id>char0</id>
+		<nameEnglish>Ice Cream</nameEnglish>
+		<textureName>icecream</textureName>
+		<physicName>icecream</physicName>
+		<scale>0.3</scale>
+		<impulse>700</impulse>
+		<elasticity>0.8</elasticity>
+		<angularDamping>2</angularDamping>
+		<linearDamping>6</linearDamping>
+		<density>1</density>
+		<collisionGroup>1</collisionGroup>
+		<static>0</static>
+	</object>
+	<object>
+		<id>char1</id>
+		<nameEnglish>Hamburger</nameEnglish>
+		<textureName>hamburger</textureName>
+		<physicName>hamburger</physicName>
+		<scale>0.3</scale>
+		<impulse>400</impulse>
+		<elasticity>1</elasticity>
+		<angularDamping>2</angularDamping>
+		<linearDamping>6</linearDamping>
+		<density>1</density>
+		<collisionGroup>1</collisionGroup>
+		<static>0</static>
+	</object>
+	<object>
+		<id>char2</id>
+		<nameEnglish>Drink</nameEnglish>
+		<textureName>drink</textureName>
+		<physicName>drink</physicName>
+		<scale>0.3</scale>
+		<impulse>2000</impulse>
+		<elasticity>0.8</elasticity>
+		<angularDamping>2</angularDamping>
+		<linearDamping>6</linearDamping>
+		<density>1</density>
+		<collisionGroup>1</collisionGroup>
+		<static>0</static>
+	</object>
+	<object>
+		<id>char3</id>
+		<nameEnglish>Orange</nameEnglish>
+		<textureName>orange</textureName>
+		<physicName>orange</physicName>
+		<scale>0.5</scale>
+		<impulse>500</impulse>
+		<elasticity>1</elasticity>
+		<angularDamping>2</angularDamping>
+		<linearDamping>3</linearDamping>
+		<density>1</density>
+		<collisionGroup>1</collisionGroup>
+		<static>0</static>
+	</object>
+	
+	<object>
+		<id>hole</id>
+		<nameEnglish>Hole</nameEnglish>
+		<textureName>holeCircle</textureName>
+		<physicName>holeCircle</physicName>
+		<scale>0.5</scale>
+		<elasticity>0</elasticity>
+		<angularDamping>0</angularDamping>
+		<linearDamping>0</linearDamping>
+		<density>1</density>
+		<collisionGroup>0</collisionGroup>
+		<static>1</static>
+	</object>
+	
+	<object>
+		<id>movingWall</id>
+		<nameEnglish>Moving Wall</nameEnglish>
+		<textureName>movingWall</textureName>
+		<physicName>movingWall</physicName>
+		<scale>1</scale>
+		<elasticity>0</elasticity>
+		<angularDamping>0</angularDamping>
+		<linearDamping>0</linearDamping>
+		<density>1</density>
+		<collisionGroup>1</collisionGroup>
+		<static>1</static>
+	</object>
+</objects>

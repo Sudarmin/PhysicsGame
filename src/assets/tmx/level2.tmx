@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="10" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Afrika" tilewidth="32" tileheight="32">
+  <image source="Afrika.png" width="576" height="576"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="10" height="15">
+  <data encoding="base64" compression="zlib">
+   eJyzZWBgsB3Fo5jKGAAu8iO/
+  </data>
+ </layer>
+ <layer name="Tile Layer 2" width="10" height="15">
+  <data encoding="base64" compression="zlib">
+   eJwTYWBgECESowN0scGmDpu+UXWUqyMGAwDV5APp
+  </data>
+ </layer>
+ <objectgroup name="Walls" width="10" height="15">
+  <object type="wall" x="15" y="17" width="4" height="452"/>
+  <object type="wall" x="50" y="15" width="229" height="5"/>
+  <object type="wall" x="300" y="19" width="11" height="454"/>
+  <object type="wall" x="47" y="464" width="236" height="6"/>
+  <object name="movingWall" type="obstacle" x="137" y="232" width="46" height="15">
+   <properties>
+    <property name="maxX" value="4"/>
+    <property name="minX" value="-3"/>
+    <property name="speed" value="250"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Objects" width="10" height="15">
+  <object name="char3" type="player" x="235" y="75" width="19" height="19">
+   <ellipse/>
+  </object>
+  <object name="hole" type="hole" x="54" y="75">
+   <polygon points="0,0 -11,13 8,13"/>
+  </object>
+  <object name="hole" type="hole" x="145" y="263">
+   <polygon points="0,0 -11,13 8,13"/>
+  </object>
+  <object name="char3" type="player" x="138" y="421" width="19" height="19">
+   <ellipse/>
+  </object>
+  <object type="wall" x="172" y="50" width="9" height="103"/>
+ </objectgroup>
+</map>
